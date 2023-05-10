@@ -1,0 +1,67 @@
+body {
+  background: rgb(161,255,206);
+  background: linear-gradient(322deg, rgba(161,255,206,1) 0%, rgba(250,255,209,1) 100%);
+  font-family: poppins;
+}
+
+.img-rounded {
+  border-radius: 25%;
+}
+
+#profile-pic {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border: 5px solid white;
+}
+
+h1, h2 {
+  font-family: bebas neue;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+.social-link {
+  font-size: 40px;
+  color: blue;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background: rgb(161,255,206);
+  background: linear-gradient(322deg, rgba(161,255,206,1) 0%, rgba(250,255,209,1) 100%);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: inset 20px 20px 60px #bebebe,
+            inset -20px -20px 60px #ffffff;
+  margin: 30px;
+  text-align: center;
+  border: 0.1px solid white;
+}
+
+.list-inline {
+  list-style: none;
+	margin-left: -0.5em;
+	margin-right: -0.5em;
+	padding-left: 0;
+}
+
+.list-inline > li {
+	display: inline-block;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.hobby {
+  font-size: 45px;
+}
